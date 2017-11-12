@@ -1,0 +1,6 @@
+baseURL = "https://zhirschtritt.com/"
+languageCode = "en-us"
+title = "Zach Hirschtritt"
+theme = "hugo-creative-portfolio-theme"
+style="green"
+uglyurls = true
