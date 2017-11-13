@@ -1,6 +1,6 @@
 {
   "name": "zhirschtritt.com",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
   	"server": "hugo server -w -v",
   	"build": "hugo -v",
