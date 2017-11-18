@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.2.1/libexec/bin/yarn.js push
+
+PATH: 
+  /Users/zacharyhirschtritt/.gem/ruby/2.3.3/bin:/Users/zacharyhirschtritt/.rubies/ruby-2.3.3/lib/ruby/gems/2.3.0/bin:/Users/zacharyhirschtritt/.rubies/ruby-2.3.3/bin:/Users/zacharyhirschtritt/.rvm/gems/ruby-2.3.3/bin:/Users/zacharyhirschtritt/.rvm/gems/ruby-2.3.3@global/bin:/Users/zacharyhirschtritt/.rvm/rubies/ruby-2.3.3/bin:/usr/local/sbin:/usr/local/bin:/Users/zacharyhirschtritt/.nvm/versions/node/v8.1.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.6/bin:/Users/zacharyhirschtritt/.rvm/bin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  6.9.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "zhirschtritt.com",
+    "main": "index.html",
+    "scripts": {
+      "syncs3": "aws s3 sync ./s3 s3://zhirschtritt-images --profile zhirschtritt",
+      "syncfroms3": "aws s3 sync s3://zhirschtritt-images ./s3 --profile zhirschtritt",
+      "push" : "git add -A; timestamp=$(date \"+%s\") && git commit -m \"$timestamp\";"
+    	"server": "hugo server -w -v",
+    	"build": "hugo -v",
+    	"deploy": "aws s3 sync public/ s3://zhirschtritt-me/ --delete --profile zhirschtritt"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/zacharyhirschtritt/Desktop/zhirschtritt.com/package.json: Unexpected string in JSON at position 328
+      at Object.parse (native)
+      at /usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:770:59
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:103:13

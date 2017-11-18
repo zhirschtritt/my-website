@@ -1,55 +1,52 @@
-baseurl = "https://zhirschtritt.com"
-title = "zach hirschtritt"
-theme = "hugo-creative-portfolio-theme"
-languageCode = "en-us"
-uglyurls = true
+baseurl = "https://zhirschtritt.com/"
+theme = "cocoa-eh"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Alexis Tacnet"
+title = "Zach Hirschtritt"
+disqusshortname = ""
+pluralizelisttitles = false
 
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+[permalinks]
+blog = "blog/:slug/"
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "default"
-  description = "Here's a bit about me"
-  sidebarAbout = [
-    "I am a maker and software developer who has a deep penchant for all things bikes, industrial sewing, and hiking"
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "zhirschtritt@gmail.com"
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Example blog"
+# copyright = "Copyright © 2015 Nishanth Shanmugham"
+# copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+logofile = "img/circles.png"
+faviconfile = "img/fox-face.png"
+highlightjs = true
+progressively = true
+share = true
+latestpostcount = 5
+github = "zhirschtritt"
+email = "zhirschtritt@gmail.com"
+linkedin = "zhirschtritt"
+# twitter = "example"
+# facebook = "facebook_id"
+social_banner = "img/banner.png"
+usesmallsummarycard = true
+posts_navigation = true
+# issoHost = "comments.domain.tld:1234"
+# githubRepo = "githubUsername/repositoryName"
+small_banner_logo = false
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
-
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
-
-  [params.social]
-  # facebook      = "full page or profile url in facebook"
-  # googleplus    = "full profile url in googleplus"
-  email         = "zhirschtritt@gmail.com"
-  # twitter       = "full profile url in twitter"
-  linkedin      = "https://www.linkedin.com/in/zhirschtritt"
-  # stackoverflow = "full profile url in stackoverflow"
-  instagram     = "https://www.instagram.com/zhirschtritt/"
-  github        = "https://www.github.com/zhirschtritt/"
+[params.colors]
+identifier = "#527fc1f"
+identifier_dark = "#1a3152"
+trivial = "#6a7a8b"
+foreground = "#181d2a"
+background = "#f9f9f9"
+background_dark = "#282a36"
+code = "#87a5d2"
+type = "#97d28b"
+special = "#ffcb8d"
+value = "#96c2d7"
+statement = "#ff8e91"
