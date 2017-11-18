@@ -3,29 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhirschtritt.com/blog/first_post/</loc>
+    <loc>https://www.zhirschtritt.com/about/</loc>
+    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.zhirschtritt.com/blog/first_post/</loc>
     <lastmod>2017-11-18T13:07:50-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhirschtritt.com/blog/</loc>
+    <loc>https://www.zhirschtritt.com/blog/</loc>
     <lastmod>2017-11-18T13:07:50-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhirschtritt.com/categories/</loc>
+    <loc>https://www.zhirschtritt.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhirschtritt.com/tags/</loc>
+    <loc>https://www.zhirschtritt.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhirschtritt.com/</loc>
-    <lastmod>2017-11-18T13:07:50-05:00</lastmod>
+    <loc>https://www.zhirschtritt.com/tags/tags/</loc>
+    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zhirschtritt.com/</loc>
+    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
     <priority>0</priority>
   </url>
   

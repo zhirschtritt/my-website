@@ -1,5 +1,5 @@
 {
-  "name": "zhirschtritt.com",
+  "name": "www.zhirschtritt.com",
   "main": "index.html",
   "scripts": {
     "syncs3": "aws s3 sync ./s3 s3://zhirschtritt-images --profile zhirschtritt",
@@ -7,6 +7,6 @@
     "push": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"$timestamp\"",
   	"server": "hugo server -w -v",
   	"build": "hugo -v",
-  	"deploy": "aws s3 sync public/ s3://zhirschtritt-me/ --delete --profile zhirschtritt"
+  	"deploy": "aws s3 sync public/ s3://zhirschtritt-me/ --profile zhirschtritt"
   }
 }
