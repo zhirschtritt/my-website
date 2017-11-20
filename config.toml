@@ -23,6 +23,7 @@ description = "Example blog"
 logofile = "img/circles.png"
 faviconfile = "img/fox-face.png"
 highlightjs = true
+uglyurls = true
 progressively = true
 share = true
 latestpostcount = 5
