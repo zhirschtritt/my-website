@@ -13,19 +13,19 @@
     
     <item>
       <title>About</title>
-      <link>https://www.zhirschtritt.com/about/</link>
+      <link>https://www.zhirschtritt.com/about.html</link>
       <pubDate>Sat, 18 Nov 2017 13:56:50 -0500</pubDate>
       
-      <guid>https://www.zhirschtritt.com/about/</guid>
+      <guid>https://www.zhirschtritt.com/about.html</guid>
       <description>Here&amp;rsquo;s an about thing.</description>
     </item>
     
     <item>
       <title>First_post</title>
-      <link>https://www.zhirschtritt.com/blog/first_post/</link>
+      <link>https://www.zhirschtritt.com/blog/first_post.html</link>
       <pubDate>Sat, 18 Nov 2017 13:07:50 -0500</pubDate>
       
-      <guid>https://www.zhirschtritt.com/blog/first_post/</guid>
+      <guid>https://www.zhirschtritt.com/blog/first_post.html</guid>
       <description>This won&amp;rsquo;t be the first time I&amp;rsquo;ve started a blog and probably not the last, but I&amp;rsquo;m pretty excited about this one! Mostly I&amp;rsquo;m excited about sharing the many projects I&amp;rsquo;m working on and keeping tabs on myself day-to-day. Also I just wanted a website to experiment with some new tech and workflows. This website is hosted on AWS S3 (public build and images) and versioned on Github. Here we go!</description>
     </item>
     
