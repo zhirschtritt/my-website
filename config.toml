@@ -1,53 +1,57 @@
-baseurl = "https://www.zhirschtritt.com/"
-theme = "cocoa-eh"
-builddrafts = true
-canonifyurls = true
-contentdir = "content"
-languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
-author = "Alexis Tacnet"
-title = "Zach Hirschtritt"
-disqusshortname = ""
-pluralizelisttitles = false
-
-[permalinks]
-blog = "blog/:slug/"
+baseurl             = "https://zhirschtritt.com/"   # Your domain name. Must end with "/"
+languageCode        = "en-us"
+title               = "Zach"
+theme               = "introduction"
+enforce_ssl         = false
+builddrafts         = false                         # Include pages with draft status of true
+canonifyurls        = true                          # Turns relative urls into absolute urls
+# disqusshortname   = "xxx"                         # Enable Disqus for comments
+# googleAnalytics   = "xxx"
 
 [params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Example blog"
-# copyright = "Copyright © 2015 Nishanth Shanmugham"
-# copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-logofile = "img/circles.png"
-faviconfile = "img/fox-face.png"
-highlightjs = true
-uglyurls = true
-progressively = true
-share = true
-latestpostcount = 5
-github = "zhirschtritt"
-email = "zhirschtritt@gmail.com"
-linkedin = "zhirschtritt"
-# twitter = "example"
-# facebook = "facebook_id"
-social_banner = "img/banner.png"
-usesmallsummarycard = true
-posts_navigation = true
-# issoHost = "comments.domain.tld:1234"
-# githubRepo = "githubUsername/repositoryName"
-small_banner_logo = false
+    bloghead        = "Blog"                        # Full name shows on blog post pages
+    firstname       = "Zach"                # First name shows in introduction on main page
+    tagline         = "taking stuff apart and building fun things"       # Appears after the introduction
+    introheight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'
+    theme           = "dark"                        # Choose 'light' or 'dark'
+    avatar          = "img/profile.jpg"             # Path to image in static folder eg. img/avatar.png, or comment out to remove
+    email           = "zhirschtritt@gmail.com"         # Shows in contact section, or leave blank to omit
+    localtime       = false                          # Show your current local time in contact section
+    timezone        = "America/New_York"         # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+    dateform        = "Jan 2, 2006"
+    dateformfull    = "Mon Jan 2 2006 15:04:05 EST"
+    cachebuster     = false                         # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
+    description     = "Website Description"         # Max 160 characters show in search results
+    faviconfile     = "img/fav.ico"
+    highlightjs     = true                          # Syntax highlighting
+    footertext      = ""                            # Text to show in footer (overrides default text)
+    fadein          = true                          # Turn on/off the fade-in effect
 
-[params.colors]
-identifier = "#527fc1f"
-identifier_dark = "#1a3152"
-trivial = "#6a7a8b"
-foreground = "#181d2a"
-background = "#f9f9f9"
-background_dark = "#282a36"
-code = "#87a5d2"
-type = "#97d28b"
-special = "#ffcb8d"
-value = "#96c2d7"
-statement = "#ff8e91"
+    showblog            = true                      # Show Blog section on home page
+    showprojects        = true                      # Show Projects section on home page
+    projectcolumns      = "3"                       # Choose "2" or "3" columns for projects section
+    placeholderimg      = "/img/workday.jpg"        # For Projects without image
+    showallposts        = false                     # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+    showlatest          = true                      # Show latest blog post summary
+    sharebuttons        = true                      # On post pages, show share this social buttons
+
+    # Share buttons
+    sharetwitter        = false
+    shareinstagram      = true
+    sharepinterest      = false
+    sharegoogleplus     = false
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
+
+# [[params.social]]
+#     url = "https://twitter.com/"
+#     icon = "twitter"
+
+[[params.social]]
+    url = "https://instagram.com/zhirschtritt"
+    icon = "instagram"
+
+[[params.social]]
+    url = "https://linkedin.com/n/zhirschtritt"
+    icon = "linkedin"
