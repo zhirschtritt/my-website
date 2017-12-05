@@ -3,40 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.zhirschtritt.com/about.html</loc>
-    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
+    <loc>https://zhirschtritt.com/blog/my-new-blog/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/blog/first_post.html</loc>
-    <lastmod>2017-11-18T13:07:50-05:00</lastmod>
+    <loc>https://zhirschtritt.com/resume/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/blog.html</loc>
-    <lastmod>2017-11-18T13:07:50-05:00</lastmod>
+    <loc>https://zhirschtritt.com/projects/item1/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/projects/item2/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/projects/item3/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/projects/item4/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/categories/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/categories.html</loc>
+    <loc>https://zhirschtritt.com/blog/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/tags.html</loc>
+    <loc>https://zhirschtritt.com/categories/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/tags/tags.html</loc>
-    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
+    <loc>https://zhirschtritt.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/projects/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.zhirschtritt.com/</loc>
-    <lastmod>2017-11-18T13:56:50-05:00</lastmod>
+    <loc>https://zhirschtritt.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhirschtritt.com/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

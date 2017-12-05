@@ -2,31 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zach Hirschtritt</title>
-    <link>https://www.zhirschtritt.com/</link>
+    <link>https://zhirschtritt.com/</link>
     <description>Recent content on Zach Hirschtritt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 18 Nov 2017 13:56:50 -0500</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.zhirschtritt.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhirschtritt.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>https://www.zhirschtritt.com/about.html</link>
-      <pubDate>Sat, 18 Nov 2017 13:56:50 -0500</pubDate>
+      <title>I made a new blog!</title>
+      <link>https://zhirschtritt.com/blog/my-new-blog/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.zhirschtritt.com/about.html</guid>
-      <description>Here&amp;rsquo;s an about thing.</description>
+      <guid>https://zhirschtritt.com/blog/my-new-blog/</guid>
+      <description>This won&amp;rsquo;t be the first time I&amp;rsquo;ve started a blog and probably not the last, but I&amp;rsquo;m pretty excited about this one! Mostly I&amp;rsquo;m excited about sharing the many projects I&amp;rsquo;m working on and keeping tabs on myself day-to-day. Also I just wanted a website to experiment with some new tech and workflows. This website is hosted on AWS S3 (public build and images) and versioned on Github. Here we go!</description>
     </item>
     
     <item>
-      <title>First_post</title>
-      <link>https://www.zhirschtritt.com/blog/first_post.html</link>
-      <pubDate>Sat, 18 Nov 2017 13:07:50 -0500</pubDate>
+      <title>Fancy App 1</title>
+      <link>https://zhirschtritt.com/projects/item1/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.zhirschtritt.com/blog/first_post.html</guid>
-      <description>This won&amp;rsquo;t be the first time I&amp;rsquo;ve started a blog and probably not the last, but I&amp;rsquo;m pretty excited about this one! Mostly I&amp;rsquo;m excited about sharing the many projects I&amp;rsquo;m working on and keeping tabs on myself day-to-day. Also I just wanted a website to experiment with some new tech and workflows. This website is hosted on AWS S3 (public build and images) and versioned on Github. Here we go!</description>
+      <guid>https://zhirschtritt.com/projects/item1/</guid>
+      <description> App 1 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 2</title>
+      <link>https://zhirschtritt.com/projects/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhirschtritt.com/projects/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 3</title>
+      <link>https://zhirschtritt.com/projects/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhirschtritt.com/projects/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>https://zhirschtritt.com/projects/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhirschtritt.com/projects/item4/</guid>
+      <description> App 4 </description>
     </item>
     
   </channel>

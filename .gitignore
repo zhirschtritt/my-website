@@ -1,3 +1,9 @@
+# os
 .DS_Store
-s3
+Thumbs.db
+Desktop.ini
 public
+s3
+
+# sass
+node_modules/

@@ -2,22 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zach Hirschtritt</title>
-    <link>https://www.zhirschtritt.com/tags.html</link>
+    <link>https://zhirschtritt.com/tags/</link>
     <description>Recent content in Tags on Zach Hirschtritt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     
-	<atom:link href="https://www.zhirschtritt.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhirschtritt.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Tags</title>
-      <link>https://www.zhirschtritt.com/tags/tags.html</link>
-      <pubDate>Sat, 18 Nov 2017 13:56:50 -0500</pubDate>
-      
-      <guid>https://www.zhirschtritt.com/tags/tags.html</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

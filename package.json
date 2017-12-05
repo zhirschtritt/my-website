@@ -1,5 +1,6 @@
 {
   "name": "www.zhirschtritt.com",
+  "licnse": "MIT",  
   "main": "index.html",
   "scripts": {
     "syncs3": "aws s3 sync ./s3 s3://zhirschtritt-images --profile zhirschtritt",

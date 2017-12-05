@@ -1,57 +1,165 @@
-baseurl             = "https://zhirschtritt.com/"   # Your domain name. Must end with "/"
-languageCode        = "en-us"
-title               = "Zach"
-theme               = "introduction"
-enforce_ssl         = false
-builddrafts         = false                         # Include pages with draft status of true
-canonifyurls        = true                          # Turns relative urls into absolute urls
-# disqusshortname   = "xxx"                         # Enable Disqus for comments
-# googleAnalytics   = "xxx"
+baseurl = "https://zhirschtritt.com/"
+languageCode = "en-us"
+title = "Zach Hirschtritt"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 5
+disqusShortname = "shortname"
+googleAnalytics = ""
+pluralizeListTitles = false
 
 [params]
-    bloghead        = "Blog"                        # Full name shows on blog post pages
-    firstname       = "Zach"                # First name shows in introduction on main page
-    tagline         = "taking stuff apart and building fun things"       # Appears after the introduction
-    introheight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'
-    theme           = "dark"                        # Choose 'light' or 'dark'
-    avatar          = "img/profile.jpg"             # Path to image in static folder eg. img/avatar.png, or comment out to remove
-    email           = "zhirschtritt@gmail.com"         # Shows in contact section, or leave blank to omit
-    localtime       = false                          # Show your current local time in contact section
-    timezone        = "America/New_York"         # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-    dateform        = "Jan 2, 2006"
-    dateformfull    = "Mon Jan 2 2006 15:04:05 EST"
-    cachebuster     = false                         # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
-    description     = "Website Description"         # Max 160 characters show in search results
-    faviconfile     = "img/fav.ico"
-    highlightjs     = true                          # Syntax highlighting
-    footertext      = ""                            # Text to show in footer (overrides default text)
-    fadein          = true                          # Turn on/off the fade-in effect
+  # Sets the meta tag description
+  description          = "Maker and Coder based in Somerville, MA"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Zach Hirschtritt"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
 
-    showblog            = true                      # Show Blog section on home page
-    showprojects        = true                      # Show Projects section on home page
-    projectcolumns      = "3"                       # Choose "2" or "3" columns for projects section
-    placeholderimg      = "/img/workday.jpg"        # For Projects without image
-    showallposts        = false                     # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-    showlatest          = true                      # Show latest blog post summary
-    sharebuttons        = true                      # On post pages, show share this social buttons
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = false
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
 
-    # Share buttons
-    sharetwitter        = false
-    shareinstagram      = true
-    sharepinterest      = false
-    sharegoogleplus     = false
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
 
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Zach Hirschtritt"
 
-# [[params.social]]
-#     url = "https://twitter.com/"
-#     icon = "twitter"
+  paragraph = "Maker and web developer base in Somerville, MA <i class='fa fa-hand-peace-o'></i>"
 
-[[params.social]]
-    url = "https://instagram.com/zhirschtritt"
-    icon = "instagram"
+  about     = ""
 
-[[params.social]]
-    url = "https://linkedin.com/n/zhirschtritt"
-    icon = "linkedin"
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/headshot.png"
+    # Sets Image to be a cirlce
+    circle    = false
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = true
+    width     = 200
+    alt       = "My face"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  identifier = "fa fa-list"
+  weight = 4
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 6
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github          = "zhirschtritt"
+  gitlab          = ""
+  stackoverflow   = "" # User Number
+  bitbucket       = ""
+  jsfiddle        = ""
+  codepen         = ""
+  # Visual Art Communities
+  deviantart      = ""
+  flickr          = ""
+  behance         = ""
+  dribbble        = ""
+  # Publishing Communities
+  wordpress       = ""
+  medium          = ""
+  # Professional/Business Oriented Communities
+  linkedin        = "zhirschtritt"
+  foursquare      = ""
+  xing            = ""
+  slideshare      = ""
+  # Social Networks
+  facebook        = ""
+  googleplus      = ""
+  reddit          = "example"
+  quora           = ""
+  youtube         = ""
+  vimeo           = ""
+  whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+  instagram       = "zhirschtritt"
+  tumblr          = ""
+  twitter         = ""
+  skype           = ""
+  snapchat        = ""
+  pinterest       = ""
+  telegram        = ""
+  vine            = ""
+  # Email
+  email           = "zhirschtritt@gmail.com"
