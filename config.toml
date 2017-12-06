@@ -7,6 +7,7 @@ paginate = 5
 disqusShortname = "shortname"
 googleAnalytics = ""
 pluralizeListTitles = false
+uglyurls = false
 
 [params]
   # Sets the meta tag description
@@ -90,31 +91,31 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Resume"
-  url = "/resume/"
+  url = "/resume/index.html"
   identifier = "fa fa-id-card-o"
   weight = 2
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog/"
+  url = "/blog/index.html"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
 [[menu.main]]
   name = "Projects"
-  url = "/projects/"
+  url = "/projects/index.html"
   identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
   name = "Categories"
-  url = "/categories/"
+  url = "/categories/index.html"
   identifier = "fa fa-sitemap"
   weight = 5
 
 [[menu.main]]
   name = "Contact"
-  url = "/contact/"
+  url = "/contact/index.html"
   identifier = "fa fa-envelope-o"
   weight = 6
 
