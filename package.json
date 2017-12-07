@@ -1,11 +1,11 @@
 {
   "name": "www.zhirschtritt.com",
-  "licnse": "MIT",  
+  "licnse": "MIT",
   "main": "index.html",
   "scripts": {
     "syncs3": "aws s3 sync ./s3 s3://zhirschtritt-images --profile zhirschtritt",
     "syncfroms3": "aws s3 sync s3://zhirschtritt-images ./s3 --profile zhirschtritt",
-    "push": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"$timestamp\"",
+    "push": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"$timestamp\" && git push origin head",
   	"server": "hugo server -w -v",
   	"build": "hugo -v",
   	"deploy": "aws s3 sync public/ s3://zhirschtritt-me/ --profile zhirschtritt"
