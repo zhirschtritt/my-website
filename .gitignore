@@ -1,9 +1,6 @@
-# os
 .DS_Store
 Thumbs.db
 Desktop.ini
 public
 s3
-
-# sass
-node_modules/
+yarn-error.log
